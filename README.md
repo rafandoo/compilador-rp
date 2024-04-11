@@ -1,17 +1,17 @@
-<h1 style="text-align: center;">Compilador RP ➕</h1>
+<h1 align="center">Compilador RP ➕</h1>
 
 > Status do projeto: ⏳ Em andamento
 
 
 ## Descrição do projeto 📝
 
-<p style="text-align: justify;">
+<p align="justify">
 Este presente projeto demonstra a implementação de um compilador completo, utilizando a linguagem de programação Java como base, com o auxilio das bibliotecas JFlex e CUP para o desenvolvimento das regras gramaticais e tokens.
 </p>
 
 ## Definição do Problema 🤔
 
-<p style="text-align: justify;">
+<p align="justify">
 O problema consiste em desenvolver um compilador para a linguagem RP. A linguagem RP é uma linguagem de programação simples que possui uma sintaxe específica e um conjunto de funcionalidades limitadas. O compilador deve ser capaz de analisar o código fonte escrito na linguagem RP, e assim realizar a análise léxica, sintática e semântica.
 
 As principais tarefas que o compilador deve realizar incluem:
@@ -23,7 +23,7 @@ As principais tarefas que o compilador deve realizar incluem:
 
 ## Tecnologias 👨‍💻
 
-<p style="text-align: center;">
+<p align="center">
     <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
     <img src="https://img.shields.io/badge/JFlex-C22127?style=for-the-badge&logoColor=white" alt="JFlex"/>
     <img src="https://img.shields.io/badge/Cup-0085CA?style=for-the-badge&logoColor=white" alt="JFlex"/>
@@ -80,10 +80,10 @@ Para executar este projeto, siga estes passos:
 
 ## Sintaxe da linguagem RP 📄
 
-Os detalhes sobre a sintaxe da linguagem podem ser encontrados na [documentação do compilador]()
+Os detalhes sobre a sintaxe da linguagem podem ser encontrados na [documentação do compilador](https://github.com/rafandoo/compilador-rp/blob/0308020fca45f22c437abe1e90fe1e16c208f872/SINTAXE-RP.md)
 
 ## Licença 🔑
 
-The [MIT License]() (MIT)
+The [MIT License](https://github.com/rafandoo/compilador-rp/blob/33f514856c997842ee0218a6194bb5ef3f278dd7/LICENSE) (MIT)
 
 Copyright :copyright: 2024 - Rafael Camargo
