@@ -101,5 +101,3 @@ id = {letra}({letra}|{digito})*
 {string_caracter_vazio}	{return new Symbol(Tokens.STRING_CHAR, yychar, yyline, yytext());}
 {digito}+ {return new Symbol(Tokens.CONSTANTE, yychar, yyline, yytext());}
 {espaco}+ {}
-. { System.out.println("Caracter ilegal: " + yytext() + " na linha: " + yyline + " coluna: " + yychar) ; }
-

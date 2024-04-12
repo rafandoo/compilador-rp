@@ -20,14 +20,15 @@ public class Main {
             Symbol s = al.next_token();
 
             while (s.sym != Tokens.EOF) {
-                System.out.printf("<%d, %s>\n", s.sym, s.value);
+                System.out.printf("|%d, %s|\n", s.sym, s.value);
                 s = al.next_token();
             }
 
-            al = new AnalisadorLexico(new FileReader(ROOT_PATH));
             System.out.println("Analise sintática...");
-            Parser p = new Parser(al);
-            p.parse();
+            Parser parser = new Parser(new AnalisadorLexico(new FileReader(ROOT_PATH)));
+            Symbol ret = parser.parse();
+            System.out.println(ret.toString());
+//            p.debug_parse();
 
             System.out.println("Sucesso!");
         } catch (FileNotFoundException e) {
