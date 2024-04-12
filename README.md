@@ -35,6 +35,8 @@ A estrutura do projeto está organizada da seguinte maneira:
 
 ```
 $PWD/
+├── docs/
+│   └── SINTAXE-RP.md
 └── src/
     ├── main/
     │   └── java/
@@ -80,7 +82,7 @@ Para executar este projeto, siga estes passos:
 
 ## Sintaxe da linguagem RP 📄
 
-Os detalhes sobre a sintaxe da linguagem podem ser encontrados na [documentação do compilador](https://github.com/rafandoo/compilador-rp/blob/0308020fca45f22c437abe1e90fe1e16c208f872/SINTAXE-RP.md)
+Os detalhes sobre a sintaxe da linguagem podem ser encontrados na [documentação do compilador](https://github.com/rafandoo/compilador-rp/blob/9aeb5722aa8405aa9f3a8eace707715593a2b0e3/docs/SINTAXE-RP.md).
 
 ## Licença 🔑
 
