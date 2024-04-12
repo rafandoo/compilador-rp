@@ -1,25 +1,34 @@
 ## SINTAXE DA LINGUAGEM ✏️
 
 ### Função:
-- function tipoDaFuncao nomeDaFuncao() {}
+```rp
+function tipoDaFuncao nomeDaFuncao() {}
+```
 
 ### If:
-
-- if(expressaoLogica) {}
-- if(expressaoLogica) {} elif(expressaoLogica) {}
-- if(expressaoLogica) {} elif(expressaoLogica) {} else {}
-- if(expressaoLogica) {} else {}
+```rp
+if(expressaoLogica) {}
+if(expressaoLogica) {} elif(expressaoLogica) {}
+if(expressaoLogica) {} elif(expressaoLogica) {} else {}
+if(expressaoLogica) {} else {}
+```
 
 ### While:
-- while(expressaoLogica) {}
+```rp
+while(expressaoLogica) {}
+```
 
 ### For:
-- for(tipoVariavel nomeVariavel in valorParada) {}
-- for(nomeVariavelJaCriada in valorParada) {}
+```rp
+for(tipoVariavel nomeVariavel in valorParada) {} 
+for(nomeVariavelJaCriada in valorParada) {}
+```
 
 ### Declaração de Variáveis:
-- tipoVariavel nomeVariavel
-- tipoVariavel nomeVariavel = valorInicial
+```rp
+tipoVariavel nomeVariavel 
+tipoVariavel nomeVariavel = valorInicial
+```
 
 ### Tipos basicos:
 
@@ -32,11 +41,13 @@
 |str  |Uma string             |
 
 ### Apresentar no console:
-- print(informacaoParaApresentar)
-
+```rp
+print(informacaoParaApresentar)
+```
 ### Entrada de dados no programa:
+```rp
 input()
-
+```
 ### Operadores booleanos:
 
 - and -> As duas expressões logicas precisam ser verdade
